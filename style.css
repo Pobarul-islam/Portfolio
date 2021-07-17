@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	font-family:sans-serif
 
 }
 
@@ -104,7 +105,7 @@ header{
 
 .picture-1 img{
 	height: 220px;
-	width: 330px;
+	
 }
 
 .picture-1{
@@ -178,9 +179,220 @@ header{
 		
 }
 
+
+
+/*==================================*/
+            /* ABOUT SECTION */
+/*==================================*/
+
 #about{
 	text-align: center;
 	position:absolute;
 	top:110% ;
 	left: 45%;
+}
+
+
+.about-pic img{
+	height: 200px;
+	position: absolute;
+	top: 130%;
+	left: 25%;
+	
+}
+
+.about-text{
+	position: absolute;
+	top: 130%;
+	left: 60%;
+}
+
+#project-count{
+	position: absolute;
+	top: 160%;
+	left: 60%;
+
+		
+}
+
+#project-count{
+	display:inline-block;
+}
+
+
+
+
+
+#about-me{
+	position: absolute;
+	top: 150%;
+	left: 60%;
+}
+
+
+.about-button{
+  
+  position:relative;
+  background-color: #942FF9;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius:2px;
+  text-decoration: none;
+  top: 50px;
+}
+
+.download-button{
+	color:white;
+	text-decoration: none;
+}
+
+.count_info{
+	display: flex;
+	justify-content:flex-end;
+	margin-bottom: 
+}
+
+
+
+/*==================================*/
+            /* SKILL SECTION */
+/*==================================*/
+
+
+.skill-section{
+	position: absolute;
+	top: 200%;
+	text-align: center;
+	left: 45%;
+}
+
+
+
+.skill-bars{
+	padding: 25px;
+	width: 500px;
+	background: #fff;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+	border-radius:10px 0;
+}
+
+.skill-bars .bar{
+	margin: 20px;
+}
+
+.skill-bars .bar:first-ohild{
+	margin-top: 0px;
+}
+
+.skill-bars .bar .info{
+	margin-bottom: 5px;
+}
+
+.skill-bars .bar .info span{
+	font-weight: 500px;
+	font-size: 16px;
+	
+	animation: shiwText 0.5s 1s linear forwards;
+}
+
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #6665ee;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.html span{
+  width: 90%;
+}
+.bar .progress-line.css span{
+  width: 60%;
+}
+.bar .progress-line.jquery span{
+  width: 85%;
+}
+.bar .progress-line.python span{
+  width: 50%;
+}
+.bar .progress-line.mysql span{
+  width: 75%;
+}
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line.html span::after{
+  content: "90%";
+}
+.progress-line.css span::after{
+  content: "60%";
+}
+.progress-line.jquery span::after{
+  content: "85%";
+}
+.progress-line.python span::after{
+  content: "50%";
+}
+.progress-line.mysql span::after{
+  content: "75%";
+}
+
+
+#abul{
+	position: absolute;
+	top: 230%;
+	left: 5%;
+}
+
+.fornt{
+	position: absolute;
+	top: 220%;
 }
