@@ -130,8 +130,13 @@ header{
   text-align: center;
   font-size: 20px;
   border-radius:5px;
-	text-decoration: none;
+
   
+}
+
+.contact2{
+	color: white;
+	text-decoration: none;
 }
 
 
@@ -271,8 +276,9 @@ header{
 
 
 /*==================================*/
-            /* Frontend section */
+            /* FRONTEND PROGRESS BAR */
 /*==================================*/
+
 .skill-bars{
 	padding: 25px;
 	width: 500px;
@@ -390,6 +396,8 @@ header{
 }
 
 
+
+
 #abul{
 	position: absolute;
 	top: 240%;
@@ -403,8 +411,14 @@ header{
 	text-align: center;
 	margin: 2px;
 	padding: 2px;
+	color: green;
 }
 
+
+
+/*==================================*/
+            /* QUALIFICATION SECTION */
+/*==================================*/
 
 .qualification{
 	position: absolute;
@@ -507,9 +521,333 @@ header{
 	
 }
 
+
+
+/*==================================*/
+            /* SERVICE SECTION */
+/*==================================*/
+
 .service{
 	position: absolute;
 	top: 450%;
 	left: 50%;
 	text-align: center;
+}
+
+.digital{
+	position: absolute;
+	top: 200em;
+	left: 15em;
+	text-align: center;
+		
+}
+
+.digital{
+	border: 1px solid;
+	height: 15em;
+	width: 15em;
+	
+}
+
+.view-icon-1{
+	position: relative;
+	top: 30px;
+}
+
+
+.digital2{
+	position: absolute;
+	top: 200em;
+	left: 40em;
+	border: 1px solid;
+	height: 15em;
+	width: 15em;
+	text-align: center;
+	
+}
+
+.digital3{
+	position: absolute;
+	top: 200em;
+	left: 60em;
+	border: 1px solid;
+	height: 15em;
+	width: 15em;
+	text-align: center;
+}
+
+
+
+/*==================================*/
+            /* PORTFOLIO SECTION */
+/*==================================*/
+
+.portfolio{
+	position: absolute;
+	top: 238em;
+	left: 50%;
+	text-align: center;
+	
+}
+
+.portfolio-text{
+	position: absolute;
+	top: 250em;
+	left: 55em;
+}
+
+.portfolio-img{
+	position: absolute;
+	top: 250em;
+	left: 25em;
+	border: 1px solid;
+	
+}
+
+
+.portfolio-img img{
+	height: 200px;
+	
+}
+
+.demo-button{
+	
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	top: 260em;
+	left: 70%;
+	background-color: #942FF9;
+	padding-left: 30px;
+	padding-right: 60px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	width: 50px;
+	border-radius: 2px;
+	text-decoration: none;
+	
+}
+
+.demo-button2{
+	text-decoration: none;
+	color: white;
+}
+
+
+.new-project{
+	position: absolute;
+	top: 285em;
+	left: 18em;
+	height: 40%;
+	width: 60%;
+	background-color:rgb(148, 47, 249);
+	border-radius: 15px;
+		
+		
+}
+
+.new-pro-pic{
+	position: absolute;
+	top: 288em;
+	left: 64%;
+	
+}
+
+.new-pro-pic img{
+	height: 200px;
+}
+
+.project-text{
+	position: absolute;
+	top: 290em;
+	left: 30%;
+	color: white;
+		
+}
+
+.project-p-tag{
+	color:#d3c8c8;
+}
+
+.project-button{
+	position: absolute;
+	top: 237em;
+	left: 30%;
+	height: 25px;
+	
+}
+
+.project-button{
+  background-color: #fff;
+  padding: 2px 20px;
+  text-align: center;
+  font-size: 20px;
+  border-radius:5px;
+	cursor: pointer;
+
+	
+
+}
+
+.project-button:hover{
+	color: tomato;
+	transition: .4s;
+}
+.con{
+	text-align: center;
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	
+	
+}
+
+
+
+
+/*==================================*/
+            /* TESTIMONIAL SECTION */
+/*==================================*/
+
+.testimonial{
+	position: absolute;
+	top: 320em;
+	left: 50%;
+	text-align: center;
+}
+
+.jack-pic{
+	position: absolute;
+	top: 330em;
+	left: 25%;
+}
+
+.star{
+	position: absolute;
+	top: 333em;
+	left: 35%;
+	
+}
+
+.shilpi-pic{
+	position: absolute;
+	top: 330em;
+	left: 60%;
+}
+
+.star2{
+	position: absolute;
+	top: 333em;
+	left: 70%;
+	
+	
+	
+/*==================================*/
+            /*  CONTACT ME */
+/*==================================*/
+}
+
+.contact-text{
+	position: absolute;
+	top: 355em;
+	left: 45%;
+	text-align: center;
+		
+		
+}
+
+.contact-box{
+	width: 500px;
+	background-color:  #efefef;
+	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+
+form{
+	margin: 35px;
+}
+.input-field{
+	width: 400px;
+	height: 40px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 14px;
+	outline:none;
+}
+
+form{
+	margin: 35px;
+	
+}
+
+.input-field{
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 14px;
+	outline: none;
+}
+
+.textarea-field{
+	height: 150px;
+	padding-top: 10px;
+}
+
+.btn{
+	border-radius: 20px;
+	color: #fff;
+	margin-top: 18px;
+	padding: 10px;
+	background-color: #3d1ae4;
+	font-size: 16px;
+	cursor:pointer;
+}
+	
+.contact-box{
+	position: absolute;
+	top: 380em;
+}
+
+
+
+
+/*==================================*/
+            /*  CONTACT ME */
+/*==================================*/
+
+
+.footer{
+	position: absolute;
+	top: 410em;
+	
+	height: 40%;
+	width: 100%;
+	background-color:  #4424de;
+}
+
+.logo-text{
+	position: absolute;
+	top: 415em;
+	left: 6em;
+	
+}
+
+
+.logo-pob{
+	text-decoration: none;
+	color: white;
+}
+
+.logo-isl{
+	text-decoration: none;
+	color: white;
 }
