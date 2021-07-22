@@ -74,7 +74,8 @@ header{
     text-decoration:none;
 	padding: 4px 16px;
 	border-radius: 3px;
-	color:rgba(0, 0, 0, 0.5);
+	color: #151212
+	
     
 }
 
@@ -130,8 +131,14 @@ header{
   text-align: center;
   font-size: 20px;
   border-radius:5px;
+  cursor: pointer;
+	  
 
   
+}
+
+.button1 .hover{
+	background-color: red;
 }
 
 .contact2{
@@ -267,7 +274,7 @@ header{
 
 .skill-section{
 	position: absolute;
-	top: 200%;
+	top: 220%;
 	text-align: center;
 	left: 45%;
 }
@@ -285,6 +292,17 @@ header{
 	background: #fff;
 	box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
 	border-radius:10px 0;
+}
+
+
+#front1{
+	position: absolute;
+	top: 250%;
+	left: 30%;
+	text-align: center;
+	margin: 2px;
+	padding: 2px;
+	color: green;
 }
 
 .skill-bars .bar{
@@ -400,29 +418,20 @@ header{
 
 #abul{
 	position: absolute;
-	top: 240%;
+	top: 260%;
 	left: 30%;
 }
 
-#front1{
-	position: absolute;
-	top: 220%;
-	left: 40%;
-	text-align: center;
-	margin: 2px;
-	padding: 2px;
-	color: green;
-}
 
 
 
 /*==================================*/
-            /* QUALIFICATION SECTION */
+       /* QUALIFICATION SECTION */
 /*==================================*/
 
 .qualification{
 	position: absolute;
-	top: 310%;
+	top: 348%;
 	left: 50%;
 	text-align: center;
 	margin: 3px;
@@ -437,13 +446,13 @@ header{
 
 .line-pic{
 	position: absolute;
-	top: 345%;
+	top: 152em;
 	left: 54%;
 }
 
 .edu{
 	position: absolute;
-	top: 335%;
+	top: 148em;
 	left: 42%;
 	margin: 2px;
 	padding: 2px;
@@ -453,7 +462,7 @@ header{
 
 .edu-icon{
 	position: absolute;
-	top: 334%;
+	top: 147em;
 	left: 35%;
 	padding: 1px;
 	
@@ -467,7 +476,7 @@ header{
 .elec{
 	position: absolute;
 	text-align: center;
-	top: 350%;
+	top: 152em;
 	left: 30%;
 	color: green;
 		
@@ -476,7 +485,7 @@ header{
 
 .web{
 	position: absolute;
-	top: 380%;
+	top: 166em;
 	left: 30%;
 	color: green;
 	text-align: center;
@@ -484,7 +493,7 @@ header{
 
 .web-design{
 	position: absolute;
-	top: 335%;
+	top: 148em;
 	left: 60%;
 	margin: 2px;
 	padding: 2px;
@@ -493,7 +502,7 @@ header{
 
 .web2{
 	position: absolute;
-	top: 360%;
+	top: 174em;
 	left: 60%;
 	color: green;
 	text-align: center;
@@ -502,7 +511,7 @@ header{
 
 .work-icon{
 	position: absolute;
-	top: 334%;
+	top: 147em;
 	left: 55%;
 	padding: 1px;
 }
@@ -514,7 +523,7 @@ header{
 
 .web22{
 	position: absolute;
-	top: 398%;
+	top: 159em;
 	left: 60%;
 	color: green;
 	text-align: center;
@@ -529,7 +538,7 @@ header{
 
 .service{
 	position: absolute;
-	top: 450%;
+	top: 185em;
 	left: 50%;
 	text-align: center;
 }
@@ -850,4 +859,68 @@ form{
 .logo-isl{
 	text-decoration: none;
 	color: white;
+}
+
+.footer-menu{
+	position: absolute;
+	top: 414em;
+	left: 35em;
+	
+}
+
+.footer-menu ul {
+	margin-left: 5px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.footer-menu ul li{
+	display: inline-block;
+	margin-left: 60px
+	
+}
+
+.foot-1{
+	text-decoration: none;
+	color: white;
+	margin: auto;
+}
+.foot-2{
+	text-decoration: none;
+	color: white;
+}
+.foot-3{
+	text-decoration: none;
+	color: white;
+}
+#footer-icon img{
+	height: 30px;
+	width:20px;
+		
+}
+
+
+#footer-icon{
+	position: absolute;
+	top: 414em;
+	left: 80%;
+	display: inline-grid;
+	grid-row-gap: 6rem;
+	word-spacing: 30px;
+	text-decoration: none;
+	
+		
+}
+
+.copyright-icon img{
+	position: absolute;
+	top: 423em;
+	height: 20px;
+	left: 45%;
+}
+
+.copy-text{
+	position: absolute;
+	top: 423em;
+	left: 48%;
 }
