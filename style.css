@@ -47,6 +47,8 @@ header{
     float: left;
 }
 
+
+
 /*================ MAIN NAVICATION ==================*/ 
 
 .main-nav{
@@ -202,6 +204,7 @@ header{
 	position:absolute;
 	top:110% ;
 	left: 45%;
+	
 }
 
 
@@ -239,6 +242,7 @@ header{
 	position: absolute;
 	top: 150%;
 	left: 60%;
+	
 }
 
 
@@ -251,7 +255,7 @@ header{
   font-size: 16px;
   border-radius:2px;
   text-decoration: none;
-  top: 50px;
+  top: 10em;
 }
 
 .download-button{
@@ -259,20 +263,54 @@ header{
 	text-decoration: none;
 }
 
-.count_info{
-	display: flex;
-	justify-content:flex-end;
-	margin-bottom: 
+.count_info-1{
+	position: absolute;
+	font-weight: bold;
+	left: 1.5em;
+	
 }
 
 
+.info11{
+	position: absolute;
+	top: 2em;
+	text-align: center;
+	
+}
+.count_info-2{
+	position: absolute;
+	left: 9.1em;
+	font-weight: bold;
+}
 
+
+.info22{
+	position: absolute;
+	left: 8em;
+	top: 2em;
+	text-align: center;
+		
+}
+
+.count_info-3{
+	position: absolute;
+	left: 18em;
+	font-weight: bold;
+}
+
+.info33{
+	position: absolute;
+	left: 17em;
+	top: 2em;
+	text-align: center;
+		
+}
 /*==================================*/
             /* SKILL SECTION */
 /*==================================*/
 
 
-.skill-section{
+#skill-section{
 	position: absolute;
 	top: 220%;
 	text-align: center;
@@ -429,7 +467,7 @@ header{
        /* QUALIFICATION SECTION */
 /*==================================*/
 
-.qualification{
+#qualification{
 	position: absolute;
 	top: 348%;
 	left: 50%;
@@ -536,8 +574,8 @@ header{
             /* SERVICE SECTION */
 /*==================================*/
 
-.service{
-	position: absolute;
+#service{
+	position:absolute;
 	top: 185em;
 	left: 50%;
 	text-align: center;
@@ -591,7 +629,7 @@ header{
             /* PORTFOLIO SECTION */
 /*==================================*/
 
-.portfolio{
+#portfolio{
 	position: absolute;
 	top: 238em;
 	left: 50%;
@@ -757,7 +795,7 @@ header{
 /*==================================*/
 }
 
-.contact-text{
+#contact-text{
 	position: absolute;
 	top: 355em;
 	left: 45%;
@@ -830,11 +868,11 @@ form{
 
 
 /*==================================*/
-            /*  CONTACT ME */
+            /*  FOOTER SECTION */
 /*==================================*/
 
 
-.footer{
+#footer{
 	position: absolute;
 	top: 410em;
 	
