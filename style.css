@@ -45,8 +45,14 @@ header{
     width: auto;
     margin-top: 35px;
     float: left;
+	color: black;
 }
 
+.logo:hover{
+	color: gold;
+	transition: 1s;
+	transform: none;
+}
 
 
 /*================ MAIN NAVICATION ==================*/ 
@@ -76,18 +82,22 @@ header{
     text-decoration:none;
 	padding: 4px 16px;
 	border-radius: 3px;
-	color: #151212
+	color: #151212;
+	display: inline-block;
 	
     
 }
 
 
 .main-nav li:hover {
-  background-color: yellow;
-	border-radius: 35px;
+  background-color: tomato;
+	border-radius: 3px;
 }
 
-
+.active{
+	background: tomato;
+	border-radius: 3px;
+}
 
 /*==================================*/
             /* Hi, I'am */
@@ -139,8 +149,10 @@ header{
   
 }
 
-.button1 .hover{
-	background-color: red;
+.button1:hover{
+	background-color: tomato;
+	transition: 2s;
+	transform:rotate(360deg);
 }
 
 .contact2{
@@ -258,10 +270,16 @@ header{
   top: 10em;
 }
 
+.about-button:hover{
+		background-color: tomato;
+	transition: 2s;
+	transform:rotate(360deg);
+}
 .download-button{
 	color:white;
 	text-decoration: none;
 }
+
 
 .count_info-1{
 	position: absolute;
@@ -586,6 +604,7 @@ header{
 	top: 200em;
 	left: 15em;
 	text-align: center;
+
 		
 }
 
@@ -594,6 +613,12 @@ header{
 	height: 15em;
 	width: 15em;
 	
+}
+
+.digital:hover{
+	opacity: .7;
+	transition: 2s;
+	background: #fff;
 }
 
 .view-icon-1{
@@ -962,3 +987,4 @@ form{
 	top: 423em;
 	left: 48%;
 }
+
