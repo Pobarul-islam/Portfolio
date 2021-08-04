@@ -46,6 +46,7 @@ header{
     margin-top: 35px;
     float: left;
 	color: black;
+	
 }
 
 .logo:hover{
@@ -60,13 +61,16 @@ header{
 .main-nav{
     float: right;
     margin-top: 40px;
+	position: fixed;
+	right: 0;
+	top: 0;
 	
 	
 }
 
 .main-nav li{
     display: inline-block;
-    margin-left: 10px;
+   
 	
 }
 
@@ -706,7 +710,7 @@ header{
 	color: white;
 }
 
-
+/*========== NEW PEOJECT ===========*/
 .new-project{
 	position: absolute;
 	top: 285em;
@@ -714,14 +718,12 @@ header{
 	height: 40%;
 	width: 60%;
 	background-color:rgb(148, 47, 249);
-	border-radius: 15px;
-		
-		
+	border-radius: 15px;		
 }
 
 .new-pro-pic{
 	position: absolute;
-	top: 288em;
+	top: 286.6em;
 	left: 64%;
 	
 }
